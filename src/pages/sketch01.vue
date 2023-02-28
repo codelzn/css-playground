@@ -23,11 +23,8 @@
   background: linear-gradient(to right, #f0b5cf 0%, #b7b5ff 100%);
 
   .shell {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     display: grid;
+    align-items: center;
     grid-template-rows: 500px 200px;
 
     input {
