@@ -1,6 +1,8 @@
 <template>
   <h1 class="text-center text-5xl mb-10">codelzn's css playground</h1>
-  <ul class="flex text-3xl justify-center items-center font-bold">
+  <ul
+    class="flex flex-col gap-3 text-3xl justify-center items-center font-bold"
+  >
     <li
       v-for="sketch in sketchList"
       :key="sketch.path"
@@ -15,6 +17,10 @@ const sketchList = [
   {
     path: "/sketch01",
     name: "sketch01",
+  },
+  {
+    path: "/sketch02",
+    name: "sketch02",
   },
 ];
 </script>
